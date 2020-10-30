@@ -56,8 +56,8 @@ int main()
 
 
         //Changeable Data
-        bool shadow = false; //false for performance
-        float reflection = 0.0f; //0.4f looks good, 0.0f for no reflection
+        bool shadow = true; //false for performance
+        float reflection = 0.4f; //0.4f looks good, 0.0f for no reflection
         bool antiAliasing = false;//false for performance
 
 

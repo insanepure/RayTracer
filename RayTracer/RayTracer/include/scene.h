@@ -19,7 +19,7 @@ class CScene
 {
 
 private:
-    enum { Threads = 4,JobsVertical=8,JobsHorizontal=8,JobCount=JobsVertical*JobsHorizontal };
+    enum { Threads = 64,JobsVertical=8,JobsHorizontal=8,JobCount=JobsVertical*JobsHorizontal };
 
 	/// @brief Jobs the Threads can have
 	///

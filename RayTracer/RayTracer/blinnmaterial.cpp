@@ -47,7 +47,7 @@ CColor CBlinnMaterial::Shade(const SHit& a_rHit, const CScene& a_rScene, int a_R
             diffuseFactor = (diffuseFactor < 0.0f) ? 0.0f : diffuseFactor;
 
             //Calculate Specular Factor
-            float specularFactor = pow(Vector3<float>::Dot(halfVector,a_rHit.Normal),this->m_Specular);
+            float specularFactor = (float)pow(Vector3<float>::Dot(halfVector,a_rHit.Normal),this->m_Specular);
             specularFactor = (specularFactor > 1.0f) ? 1.0f : specularFactor;
             specularFactor = (specularFactor < 0.0f) ? 0.0f : specularFactor;
 

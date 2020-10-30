@@ -66,7 +66,7 @@ struct Vector3
     */
     inline T Length() const
     {
-        return sqrt(Vector3<float>::Dot(*this,*this));
+        return (T)sqrt(Vector3<float>::Dot(*this,*this));
     }
 
     /*!
