@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Math">
+      <UniqueIdentifier>{415bae1f-89c8-45b0-8e6b-cb37420bdc1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Utilities">
+      <UniqueIdentifier>{57052d49-f5ff-4d6b-bf5d-8a7c82645029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Utilities">
+      <UniqueIdentifier>{b9596be3-5103-499e-b3e3-61e447243486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\objects">
+      <UniqueIdentifier>{b54396f4-4414-49aa-8623-501f5939bf4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\objects">
+      <UniqueIdentifier>{596a961e-1825-4b49-b423-e304e39bff5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Materials">
+      <UniqueIdentifier>{61b81c14-ff48-461a-84b3-1fc7e238b42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Lights">
+      <UniqueIdentifier>{fa34e476-ea36-43e3-92b2-885bc23b13a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Materials">
+      <UniqueIdentifier>{9abaee0e-e420-40c4-9c1b-d079c55bf64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Lights">
+      <UniqueIdentifier>{cc27aed3-9d1b-4eee-b4b4-78309b35a2b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\SDL2\lib\x86\SDL2.dll">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Quelldateien\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ray.cpp">
+      <Filter>Quelldateien\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere.cpp">
+      <Filter>Quelldateien\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="blinnmaterial.cpp">
+      <Filter>Quelldateien\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="pointlight.cpp">
+      <Filter>Quelldateien\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="plane.cpp">
+      <Filter>Quelldateien\objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\window.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scene.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\color.h">
+      <Filter>Headerdateien\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector3.h">
+      <Filter>Headerdateien\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector2.h">
+      <Filter>Headerdateien\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\camera.h">
+      <Filter>Headerdateien\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ray.h">
+      <Filter>Headerdateien\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sphere.h">
+      <Filter>Headerdateien\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\iobject.h">
+      <Filter>Headerdateien\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hit.h">
+      <Filter>Headerdateien\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imaterial.h">
+      <Filter>Headerdateien\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="include\blinnmaterial.h">
+      <Filter>Headerdateien\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ilight.h">
+      <Filter>Headerdateien\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pointlight.h">
+      <Filter>Headerdateien\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="include\plane.h">
+      <Filter>Headerdateien\objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
