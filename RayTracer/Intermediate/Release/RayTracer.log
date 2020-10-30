@@ -1,0 +1,15 @@
+﻿  blinnmaterial.cpp
+  camera.cpp
+  main.cpp
+  plane.cpp
+  pointlight.cpp
+  ray.cpp
+  scene.cpp
+  sphere.cpp
+  window.cpp
+  Code wird generiert.
+  Previous IPDB not found, fall back to full compilation.
+  All 227 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  RayTracer.vcxproj -> C:\Users\p-u-r\Documents\GitHub\RayTracer\RayTracer\RayTracer\Build\Release\RayTracer.exe
+          1 Datei(en) kopiert.

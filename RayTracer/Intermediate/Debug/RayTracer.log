@@ -1,0 +1,12 @@
+﻿  blinnmaterial.cpp
+  camera.cpp
+  main.cpp
+  plane.cpp
+  pointlight.cpp
+  ray.cpp
+  scene.cpp
+  sphere.cpp
+  window.cpp
+  Code wird generiert...
+  RayTracer.vcxproj -> C:\Users\p-u-r\Documents\GitHub\RayTracer\RayTracer\RayTracer\Build\Debug\RayTracer.exe
+          1 Datei(en) kopiert.
